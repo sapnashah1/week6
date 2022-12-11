@@ -49,7 +49,7 @@ namespace SydneyCoffee
                 // determining the price
                 if (quantity[i] <= 5)
                 {
-                    price = 36 * quantity[i];
+                    price = 50 * quantity[i];
                 }
                 else if (quantity[i] <= 15)
                 {
