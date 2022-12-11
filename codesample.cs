@@ -58,7 +58,7 @@ namespace SydneyCoffee
                 else
                 {
                   // initially it was 32.7
-                    price = 30 * quantity[i];
+                    price = 10 * quantity[i];
                 }
 
                 Console.Write("Enter yes/no to indicate whesther you are a reseller: ");
@@ -67,7 +67,7 @@ namespace SydneyCoffee
                 if (reseller[i] == "yes")
                 {
                     // 30% discount
-                    charge[i] = price * 0.7;
+                    charge[i] = price * 0.5;
                 }
                 else
                 {
